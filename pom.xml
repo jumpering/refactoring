@@ -4,7 +4,11 @@
   <artifactId>movies</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>movies</name>
+  <properties>
+    <maven.compiler.source>16</maven.compiler.source>
+    <maven.compiler.target>16</maven.compiler.target>
+  </properties>
+    <name>movies</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
