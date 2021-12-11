@@ -1,7 +1,6 @@
 package usantatecla.movies.v22;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class Customer {
@@ -50,5 +49,4 @@ public class Customer {
 		}
 		return result;
 	}
-
 }

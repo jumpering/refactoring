@@ -15,8 +15,7 @@ public class NewReleasePrice extends Price {
 	public int getFrequentRenterPoints(int daysRented) {
 		if (daysRented > NewReleasePrice.DAYS_RENTED_THRESHOLD) {
 			return NewReleasePrice.FREQUENT_RENTER_POINTS;
-		} else {
-			return super.getFrequentRenterPoints(daysRented);
 		}
+		return super.getFrequentRenterPoints(daysRented);
 	}
 }
